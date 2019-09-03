@@ -1,8 +1,11 @@
+[![Build Status](https://travis-ci.org/markgzhou/parquet-inspector.svg?branch=master)](https://travis-ci.org/markgzhou/parquet-inspector)
 # parquet-inspector
 
 Inspect, check and validate parquet files
 
+
 ## Build
+
 ./gradlew clean shadowJar
 
 ## Run
