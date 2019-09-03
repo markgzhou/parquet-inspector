@@ -1,0 +1,9 @@
+language: java
+scala:
+  - 2.11.11
+jdk:
+  - openjdk8
+before_script:
+  - chmod a+x gradlew
+script:
+  - ./gradlew clean sJ
